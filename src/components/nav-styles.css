@@ -1,0 +1,28 @@
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(79, 78, 78);
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5px;
+  transition: all ease-in 0.5;
+}
+
+.nav-links li a:hover {
+  border-bottom: 1px solid white;
+}
+
+h4 {
+  font-size: 25px;
+}

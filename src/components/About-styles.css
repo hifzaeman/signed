@@ -1,0 +1,30 @@
+.About {
+  display: flex;
+  height: 70vh;
+}
+
+.About-text {
+  padding: 0 9%;
+  width: 60%;
+  background-color: rgb(194, 172, 60);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-img {
+  width: 40%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-img img {
+  padding: 20px;
+  padding-bottom: 0;
+  background-color: black;
+  transform: translateX(-80%);
+  border: 3px solid rgb(194, 172, 60);
+}
